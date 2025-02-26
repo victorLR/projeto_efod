@@ -3,7 +3,7 @@ import { cores } from '../../../../styles'
 
 export const FooterContainer = styled.div`
   background-color: ${cores.bege};
-  width: 100%;
+  width: 1366px;
   height: 298px;
   padding: 40px 0;
   display: flex;
@@ -11,6 +11,7 @@ export const FooterContainer = styled.div`
   align-items: center;
   justify-content: center;
   margin-top: 120px;
+  margin: 0 auto;
 `
 
 export const LogoEfood = styled.img`

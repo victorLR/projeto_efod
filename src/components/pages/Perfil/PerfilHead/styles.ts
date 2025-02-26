@@ -2,72 +2,88 @@ import styled from 'styled-components'
 import { cores } from '../../../../styles'
 
 export const Header = styled.header`
-  position: relative;
+  max-width: 1366px;
+  margin: 0 auto;
+`
+
+export const DivHeader = styled.div`
   display: flex;
-  flex-direction: column;
-  align-items: center;
   justify-content: center;
-  height: auto;
+  align-items: center;
+  position: relative;
 `
 
 export const FundoPerf = styled.img`
-  width: 100%;
-  height: auto;
+  position: relative;
+  width: 1366px;
+  height: 186px;
 `
 
 export const Image = styled.img`
   position: absolute;
-  top: 64px;
-  left: 50%;
-  transform: translate(-50%, -50%);
+  width: 125px;
+  left: 621px;
+  height: 58px;
+  top: 40px;
+`
+export const H1 = styled.h1`
+  position: absolute;
+  width: 109px;
+  height: 21px;
+  top: 59px;
+  left: 171px;
+  color: ${cores.begeEscuro};
+  font-weight: 900;
+  font-size: 18px;
+  line-height: 21px;
+  text-align: center;
 `
 
 export const Div = styled.div`
   position: absolute;
-  top: 82px;
-  right: 171px;
-  transform: translateY(-50%);
-  background: ${cores.begeEscuro};
-  color: ${cores.begeCLaro};
-  padding: 10px 15px;
-  border-radius: 5px;
-  font-weight: bold;
+  width: 256px;
+  height: 21px;
+  top: 59px;
+  left: 939px;
+  line-height: 21px;
+  font-size: 18px;
+  color: ${cores.begeEscuro};
+  font-weight: 900;
 `
 
-export const H1 = styled.h1`
-  position: absolute;
-  top: 82px;
-  left: 171px;
-  transform: translateY(-50%);
-  font-size: 24px;
-  color: ${cores.begeEscuro};
+export const TitleContainer = styled.div`
+  position: relative;
+  width: 1366px;
+  height: 280px;
+  display: flex;
+  flex-direction: column;
 `
 
 export const ImagePerf = styled.img`
-  width: 100%;
-  display: block;
   position: absolute;
-  top: 150px;
-`
-export const TitleContainer = styled.div`
-  position: absolute;
-  top: 170px;
-  left: 170px;
-  width: 100%;
-  text-align: left;
+  height: 280px;
+  width: 1366px;
+  z-index: -1;
 `
 
 export const MainTitle = styled.h2`
+  position: absolute;
+  top: 25px;
+  left: 170px;
+  height: 33px;
+  font-weight: 100;
   font-size: 32px;
+  line-height: 37px;
   color: #fff;
-  margin: 0;
-  font-weight: lighter;
 `
 
 export const SubTitle = styled.p`
+  position: absolute;
+  top: 214px;
+  height: 33px;
+  left: 170px;
+  font-weight: 900;
   font-size: 32px;
+  line-height: 37px;
   color: #fff;
-  margin-top: 250px;
-  margin-left: 0;
-  font-weight: bold;
 `

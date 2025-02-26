@@ -3,7 +3,7 @@ import { cores } from '../../../../styles'
 
 export const DivCard = styled.div`
   background-color: ${cores.begeEscuro};
-  border: 0px 1px 1px 1px;
+  border: 1px solid ${cores.begeCLaro}; /* Borda adicionada conforme o Figma */
   color: ${cores.begeEscuro};
   width: 320px;
   height: auto;
@@ -18,7 +18,7 @@ export const DivCard = styled.div`
 
 export const DivSub = styled.div`
   display: flex;
-  align-items: center;
+  align-items: flex-start; /* Ajustando para alinhar ao topo ou ao meio, conforme necessário */
   justify-content: space-between;
   width: 100%;
   margin-top: 8px;
