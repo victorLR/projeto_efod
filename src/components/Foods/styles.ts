@@ -10,6 +10,10 @@ export const DivCard = styled.div`
   margin-bottom: 48px;
   margin-top: 80px;
   position: relative;
+  border-bottom: 1px solid ${cores.begeEscuro};
+  border-left: 1px solid ${cores.begeEscuro};
+  border-right: 1px solid ${cores.begeEscuro};
+  border-top: none;
 `
 export const DivSub = styled.div`
   display: flex;
@@ -21,7 +25,7 @@ export const StarContainer = styled.div`
   display: flex;
   align-items: center
   gap: 5px;
-`
+  `
 export const Span = styled.span`
   font-size: 18px;
   margin-right: 8px;
@@ -34,7 +38,9 @@ export const Titulo = styled.h3`
   margin: 7px 8px;
   margin-right: 10px;
 `
-
+export const Img = styled.img`
+  margin-left: -1px;
+`
 export const Descricao = styled.p`
   display: block;
   width: 456px;
